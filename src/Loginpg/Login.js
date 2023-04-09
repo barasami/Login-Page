@@ -2,18 +2,25 @@ import React from 'react'
 import './Login.css'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import { Card } from '@mui/material';
 
 function Login() {
   return (
-    <div>
+    <Card className='card'>
         <div>
+            <div>hello</div>
+        </div>
+        <div className='username'>
             <TextField
             label="Username"
             id="outlined-size-small"
             size="small"
             />
         </div>
-        <div>
+        <div className='password'>
             <TextField
             label="Password"
             id="outlined-size-small"
@@ -21,13 +28,40 @@ function Login() {
             type='password'
             />
         </div>
-       <div>
-            <Button variant="contained" color="primary">
-                Login
-            </Button>
+       <div className='btn'>
+            <div>
+                <Button variant="contained" color="primary">
+                    Login
+                </Button>
+            </div>
+            <div>
+                <Button variant="contained" color="primary">
+                    Sign Up
+                </Button>
+            </div>
+       </div>
+       <div className='f_password'>
+         <p>Forgot Password</p>
+       </div>
+       <div className='option_two'>
+            <div className='title'>
+                <h5>OR</h5>
+            </div>
+            <div className='icon'>
+                <div>
+                    <InstagramIcon color='primary'/>
+                </div>
+                <div>
+                    <FacebookIcon/>
+                </div>
+                <div>
+                    <TwitterIcon/>
+                </div>
+                
+            </div>
        </div>
         
-    </div>
+    </Card>
   )
 }
 
