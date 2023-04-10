@@ -44,7 +44,7 @@ function Login() {
             </div>
        </div>
        <div className='f_password'>
-         <p>Forgot Password</p>
+            <a href='#'>Forgot Password</a>  
        </div>
        <div className='option_two'>
             <div className='title'>
