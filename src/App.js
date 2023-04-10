@@ -4,7 +4,9 @@ import Login from './Loginpg/Login';
 function App() {
   return (
     <div className="App">
-      <Login/>
+      <div className='lg_page'>
+        <Login/>
+      </div>
     </div>
   );
 }

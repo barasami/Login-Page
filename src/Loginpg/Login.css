@@ -13,6 +13,20 @@
     margin-top:.9em;
 
 }
+.person{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    background-color: rgb(180, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log_person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .card{
     padding: 1em;
 }

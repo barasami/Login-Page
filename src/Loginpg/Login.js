@@ -6,12 +6,15 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { Card } from '@mui/material';
+import PersonIcon from '@mui/icons-material/Person';
 
 function Login() {
   return (
     <Card className='card'>
-        <div>
-            <div>hello</div>
+        <div className='log_person'>
+            <div className='person'>
+                <PersonIcon />
+            </div>
         </div>
         <div className='username'>
             <TextField
