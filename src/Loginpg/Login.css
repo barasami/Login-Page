@@ -13,11 +13,19 @@
     margin-top:.9em;
 
 }
+.alternative{
+    
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .person{
     height: 5em;
     width: 5em;
     border-radius: 50%;
-    background-color: rgb(180, 177, 177);
+    background-color:#1de9b6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +37,7 @@
 }
 .card{
     padding: 1.2em;
+    color: #64ffda;
 }
 .password{
     margin-top: .9em;

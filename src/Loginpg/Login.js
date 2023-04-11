@@ -5,15 +5,15 @@ import Button from '@mui/material/Button';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import { Card } from '@mui/material';
+import { Paper } from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
 
 function Login() {
   return (
-    <Card className='card'>
+    <Paper className='card' elevation={2} >
         <div className='log_person'>
             <div className='person'>
-                <PersonIcon />
+                <PersonIcon fontSize='large' />
             </div>
         </div>
         <div className='username'>
@@ -33,38 +33,38 @@ function Login() {
         </div>
        <div className='btn'>
             <div>
-                <Button variant="contained" color="primary">
+                <Button variant="outlined" color="primary">
                     Login
                 </Button>
             </div>
             <div>
-                <Button variant="contained" color="primary">
+                <Button variant="outlined" color="primary">
                     Sign Up
                 </Button>
             </div>
        </div>
        <div className='f_password'>
-            <a href='#'>Forgot Password</a>  
+            <a className='link' href='#'>Forgot Password?</a>  
        </div>
        <div className='option_two'>
             <div className='title'>
-                <h5>OR</h5>
+                <h5 className='alternative'>OR</h5>
             </div>
             <div className='icon'>
                 <div>
                     <InstagramIcon color='primary'/>
                 </div>
                 <div>
-                    <FacebookIcon/>
+                    <FacebookIcon color='primary'/>
                 </div>
                 <div>
-                    <TwitterIcon/>
+                    <TwitterIcon color='primary'/>
                 </div>
                 
             </div>
        </div>
         
-    </Card>
+    </Paper>
   )
 }
 
