@@ -14,12 +14,18 @@
 
 }
 .alternative{
+    font-family: monospace;
     
 }
 .link{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:monospace;
+    font-size: larger;
+
 }
 .person{
     height: 5em;
