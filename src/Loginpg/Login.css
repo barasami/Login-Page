@@ -97,3 +97,15 @@
     justify-content: center;
 
 }
+.twitterlink:active,.twitterlink:hover{
+    transform: translateY(-1em);
+    border: 2px solid seagreen;
+}
+.facebooklink:active,.facebooklink:hover{
+    transform: translateY(-1em);
+    border: 2px solid seagreen;
+}
+.instalink:active,.instalink:hover{
+    transform: translateY(-1em);
+    border: 2px solid seagreen;
+}
