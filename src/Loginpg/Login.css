@@ -61,7 +61,39 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    margin: .3em;
 }
 .option_two{
-    margin-top: 2.3em;
+    margin-top: 2em;
+    
+}
+.instalink{
+    padding: .3em;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.facebooklink{
+    padding: .3em;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.twitterlink{
+    padding: .3em;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }

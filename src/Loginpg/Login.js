@@ -51,13 +51,13 @@ function Login() {
                 <h5 className='alternative'>OR</h5>
             </div>
             <div className='icon'>
-                <div>
+                <div className='instalink'>
                     <InstagramIcon color='primary'/>
                 </div>
-                <div>
+                <div className='facebooklink'>
                     <FacebookIcon color='primary'/>
                 </div>
-                <div>
+                <div className='twitterlink'>
                     <TwitterIcon color='primary'/>
                 </div>
                 
