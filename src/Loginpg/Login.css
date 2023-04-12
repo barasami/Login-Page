@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family:monospace ;
 }
 .title{
     display: flex;
@@ -15,6 +16,7 @@
 }
 .alternative{
     font-family: monospace;
+    font-size: large;
     
 }
 .link{
@@ -22,20 +24,20 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: lighter;
     font-family:monospace;
     font-size: larger;
+    color:#2196f3;
 
 }
 .person{
     height: 5em;
     width: 5em;
     border-radius: 50%;
-    /* background-color:#1de9b6; */
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid darkviolet;
+    border: 2px solid #2196f3;
 }
 .log_person{
     display: flex;
@@ -51,15 +53,21 @@
 
 }
 .remember_me{
-    margin-top: .5em;
+    margin-top: 1em;
+}
+.login{
+   
+    
 }
 .remember{
     display: flex;
 }
+.text{
+    margin-left: .4em;
+    font-family:monospace ;
+}
 .btn{
-    margin-top: .7em;
-    display: flex;
-    justify-content: space-between;
+    margin-top: .9em;  
 }
 .f_password{
     margin-top: 1em;
@@ -77,7 +85,7 @@
 .instalink{
     padding: .3em;
     border-radius: 50%;
-    border: 1px solid green;
+    border: 1px solid #2196f3;
     margin: .3em;
     display: flex;
     align-items: center;
@@ -87,7 +95,7 @@
 .facebooklink{
     padding: .3em;
     border-radius: 50%;
-    border: 1px solid green;
+    border: 1px solid #2196f3;
     margin: .3em;
     display: flex;
     align-items: center;
@@ -97,7 +105,7 @@
 .twitterlink{
     padding: .3em;
     border-radius: 50%;
-    border: 1px solid green;
+    border: 1px solid #2196f3;
     margin: .3em;
     display: flex;
     align-items: center;
@@ -106,13 +114,13 @@
 }
 .twitterlink:active,.twitterlink:hover{
     transform: translateY(-1em);
-    border: 2px solid seagreen;
+    border: 1.5px solid #2196f3;
 }
 .facebooklink:active,.facebooklink:hover{
     transform: translateY(-1em);
-    border: 2px solid seagreen;
+    border: 1.5px solid #2196f3;
 }
 .instalink:active,.instalink:hover{
     transform: translateY(-1em);
-    border: 2px solid seagreen;
+    border: 1.5px solid #2196f3;
 }

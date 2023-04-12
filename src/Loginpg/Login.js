@@ -32,22 +32,17 @@ function Login() {
             type='password'
             />
         </div>
+        <div className='remember_me'>
+            <div className='remember'>
+                <input type="checkbox"/>
+                <p className='text'>Remember Me</p>
+            </div>
+       </div>
        <div className='btn'>
-            <div>
+            <div className='login'>
                 <Button variant="outlined" color="primary">
                     Login
                 </Button>
-            </div>
-            <div>
-                <Button variant="outlined" color="primary">
-                    Sign Up
-                </Button>
-            </div>
-       </div>
-       <div className='remember_me'>
-            <div className='remember'>
-                <input type="checkbox"/>
-                <p>Remember Me</p>
             </div>
        </div>
        <div className='f_password'>
@@ -55,7 +50,7 @@ function Login() {
        </div>
        <div className='option_two'>
             <div className='title'>
-                <h5 className='alternative'>OR</h5>
+                <h5 className='alternative'>Sign Up</h5>
             </div>
             <div className='icon'>
                 <div className='instalink'>
