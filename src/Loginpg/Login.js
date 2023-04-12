@@ -14,7 +14,7 @@ function Login() {
     <Paper className='card' elevation={1}>
         <div className='log_person'>
             <div className='person'>
-                <PersonIcon fontSize='large' />
+                <PersonIcon fontSize='large' color='primary' />
             </div>
         </div>
         <div className='username'>
@@ -40,13 +40,13 @@ function Login() {
        </div>
        <div className='btn'>
             <div className='login'>
-                <Button variant="outlined" color="primary">
+                <Button variant="contained" color="primary" className='login'>
                     Login
                 </Button>
             </div>
        </div>
        <div className='f_password'>
-            <a className='link' href='#'>Forgot Password?</a>  
+            <a className='link' href='/'>Forgot Password?</a>  
        </div>
        <div className='option_two'>
             <div className='title'>
