@@ -7,10 +7,11 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { Paper } from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
+import { Check } from '@mui/icons-material';
 
 function Login() {
   return (
-    <Paper className='card' elevation={2} >
+    <Paper className='card' elevation={1}>
         <div className='log_person'>
             <div className='person'>
                 <PersonIcon fontSize='large' />
@@ -41,6 +42,12 @@ function Login() {
                 <Button variant="outlined" color="primary">
                     Sign Up
                 </Button>
+            </div>
+       </div>
+       <div className='remember_me'>
+            <div className='remember'>
+                <input type="checkbox"/>
+                <p>Remember Me</p>
             </div>
        </div>
        <div className='f_password'>
